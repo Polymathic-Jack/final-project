@@ -61,11 +61,11 @@ article img {
     margin: auto;
     padding: 10px 10px 10px 10px;
     background-color: #F9F9F9;
-    margin: 0 0 50px 0;
+    margin: 0 0 100px 0;
     float: left;
     position: -webkit-sticky;
     position: sticky;
-    top: 50px;
+    top: 100px;
 }
 
 .content-two img {
@@ -216,6 +216,19 @@ footer li {
     display: inline-block;
     padding: 0 10px 0 10px;
     font-weight: bold;
+}
+
+.fa-brands {
+    padding: 20px;
+    font-size: 100px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-github-square{
+    background-color: blue;
+    color: white;
 }
 
 
