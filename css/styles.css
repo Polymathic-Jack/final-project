@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 /* font-family: 'Poppins', sans-serif;
-font-family: 'Quicksand', sans-serif; */
+font-family: 'Quicksand', sans-serif; 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Serif Pro', serif;*/
 
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
     background: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1, h2 {
@@ -32,6 +37,7 @@ h3 {
 p{
     text-indent: 50px;
     padding: 15px 15px 15px 15px;
+    font-family: 'Source Serif Pro', serif;
 }
 
 main {
@@ -88,10 +94,11 @@ article img {
 }
 
 .hero-video {
-    width: 500px;
-    height: 300px;
+    width: 1000px;
+    height: 500px;
     display: block;
     margin: auto;
+    padding: 10px 10px 10px 10px
     
 }
 
@@ -216,26 +223,32 @@ article img {
 
 /* Footer Styles */
 
+footer {
+    background-color: #3a4443;
+}
+
 footer ul {
     display: block;
-    background: #D1CBCD;
+    /* background: #D1CBCD; */
+    padding: 20px 10px 20px 10px;
     width: auto;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 0;
     text-align: center;
 }
 
 footer li {
     font-size: 14px;
     display: inline-block;
-    float: center;
+    /* float: center; */
     padding: 0 10px 0 10px;
     font-weight: bold;
+    color: #eef2f3;
 }
 
 .fa-brands {
-    padding: 10px 10px 10px 10px;
+    /* padding: 10px 10px 10px 10px; */
     font-size: 100px;
-    width: 120px;
+    width: auto;
     text-align: center;
     text-decoration: none;
     border-radius: 100%;
@@ -243,11 +256,9 @@ footer li {
 
 .fa-facebook,
 .fa-instagram {
-    background-color: #F9F9F9;
-    color: #5AA9E6;
-    /* border-radius: 100%; */
+    /* background-color: #F9F9F9; */
+    color: #eef2f3;
 }
-
 
 /* End of Footer Styles */
 
@@ -258,3 +269,6 @@ footer li {
 
 /* === Color Palette ===
 5AA9E6 7FC8F8 F9F9F9 FFE45E D1CBCD 21130d*/
+
+/* === Secondary Color Palette ===
+#d9dde5 #5d7f90 #2a333a #9fb3c2 #afc2d4 #88acbe #b3ccda #3a4443 #eef2f3*/
