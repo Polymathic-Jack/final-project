@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
 * {
-    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,6 +19,7 @@ h1, h2 {
     background: #7FC8F8;
     padding: 14px 16px;
     color: white;
+    font-weight: 300;
     text-align: center;
     margin-top: 55px;
 }
@@ -79,6 +85,14 @@ article img {
 .content-two,
 .types-of-hikes {
     font-size: 18px;
+}
+
+.hero-video {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    
 }
 
 /* === Types of Hikes Sidebar Styles === */
@@ -160,7 +174,6 @@ article img {
     text-align: center;
     padding: 15px 15px;
     height: 50px;
-    font-weight: bold;
     background-color: #7FC8F8;
     color: #F9F9F9;
 }
@@ -214,21 +227,25 @@ footer ul {
 footer li {
     font-size: 14px;
     display: inline-block;
+    float: center;
     padding: 0 10px 0 10px;
     font-weight: bold;
 }
 
 .fa-brands {
-    padding: 20px;
+    padding: 10px 10px 10px 10px;
     font-size: 100px;
-    width: 200px;
+    width: 120px;
     text-align: center;
     text-decoration: none;
+    border-radius: 100%;
 }
 
-.fa-github-square{
-    background-color: blue;
-    color: white;
+.fa-facebook,
+.fa-instagram {
+    background-color: #F9F9F9;
+    color: #5AA9E6;
+    /* border-radius: 100%; */
 }
 
 

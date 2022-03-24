@@ -20,7 +20,29 @@
         </nav>
     </header>
     <main>
-        <h1>Contact</h1>
+        <h1>Contact Me</h1>
+        <div>
+            <form>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="firstname" placeholder="*Your name..."required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lastname" placeholder="Your last name...">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" placeholder="*Your Email..."required>
+                    <p>*Indicates a required field.</p>
+                </div> 
+                <div>
+                    <h3>What is your level of hiking experience?</h3>
+                    <label for="beginner"><input id="beginner" type="radio" name="hiker-level">Beginner</label>
+                    <label for="intermediate"><input id="intermediate" type="radio" name="hiker-level">Intermediate</label>
+                    <label for="advanced"><input id="advanced" type="radio" name="hiker-level">Advanced</label>
+                </div>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Type your message here..." style="height: 200px;"></textarea>
+                <input type="submit" value="submit">
+            </form> 
+        </div>        
     </main>
     <footer>
         <ul>
