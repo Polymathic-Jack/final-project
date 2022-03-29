@@ -20,13 +20,13 @@ body {
 }
 
 h1, h2 {
-    margin-top: 38px;
+    margin: 0 0 0 0;
     background: #7FC8F8;
+    border-top: solid #F9F9F9 0.1rem;
     padding: 14px 16px;
-    color: white;
+    color: #F9F9F9;
     font-weight: 300;
     text-align: center;
-    margin-top: 55px;
 }
 
 h3 {
@@ -41,7 +41,7 @@ p{
 }
 
 main {
-    background-color: #D1CBCD;
+    background-image: linear-gradient(#F9F9F9, #5AA9E6)
 }
 
 article {
@@ -70,7 +70,7 @@ article img {
 }
 
 .content-two {
-    margin: auto;
+    margin: 1em 1em 1em 1em;
     padding: 10px 10px 10px 10px;
     background-color: #F9F9F9;
     margin: 0 0 100px 0;
@@ -132,6 +132,7 @@ article img {
 #left-column,
 #right-column {
     width: 50%;
+    border: 2px solid #000;
 }
 
 .clear-both {
@@ -195,7 +196,7 @@ input[type=radio]:focus {
 }
 
 form-control:focus-within {
-    color: var(--form-control-color);
+    color: var(--form-control-color)
 }
 
 .form-control + .form-control {
@@ -216,8 +217,19 @@ textarea {
     font-family: 'Poppins', sans-serif;
 }
 
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 0.09em;
+}
 
-
+form p {
+    margin: 0;
+    padding: 0.09em;
+    font-family: inherit;
+    font-size: 0.75em;
+    text-align: left;
+}
 /* === End of Form Styles */
 
 /* === Navigation Bar Styles === */
