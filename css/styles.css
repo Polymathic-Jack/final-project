@@ -146,6 +146,7 @@ article img {
 .container {
     margin: auto;
     max-width: 50%;
+    padding: 20px 0 20px 0;
 }
 
 .form-control {
@@ -255,6 +256,7 @@ form p {
 .navbar li {
     /* border: 1px solid blue; */
     display: inline-block;
+    height: auto;
     font-size: 18px;
     float: left;
     text-align: center;
@@ -267,7 +269,7 @@ form p {
 }
 
 .navbar a:first-child {
-    /* padding-top: 0; */
+    padding-top: .2rem;
 }
 
 .navbar a {
@@ -287,9 +289,8 @@ form p {
 }
 
 .logo-img {
-    width: 100px;
-    height: 100px;
-    margin-top: 0;
+    width: 2.4rem;
+    height: 2.4rem;
     padding: 0;
 }
 
@@ -325,7 +326,6 @@ footer {
 
 footer ul {
     display: block;
-    /* background: #D1CBCD; */
     padding: 20px 10px 20px 10px;
     width: auto;
     margin: 0 0 0 0;
@@ -335,14 +335,12 @@ footer ul {
 footer li {
     font-size: 14px;
     display: inline-block;
-    /* float: center; */
     padding: 0 10px 0 10px;
     font-weight: bold;
     color: #eef2f3;
 }
 
 .fa-brands {
-    /* padding: 10px 10px 10px 10px; */
     font-size: 100px;
     width: auto;
     text-align: center;
