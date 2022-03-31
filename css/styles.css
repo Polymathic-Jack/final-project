@@ -21,7 +21,7 @@ body {
 
 h1, h2 {
     margin: 0 0 0 0;
-    background: #7FC8F8;
+    background: #5AA9E6;
     border-top: solid #F9F9F9 0.1rem;
     padding: 14px 16px;
     color: #F9F9F9;
@@ -44,22 +44,9 @@ main {
     background-image: linear-gradient(#F9F9F9, #5AA9E6)
 }
 
-article {
-    /* margin: 50px 0 50px 0; */
-}
-
-article img {
-    /* float: right;
-    border-radius: 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;*/
-} 
-
 .content-one {
     width: 50%;
     margin: auto;
-    /* border: 2px solid #21130d; */
     padding: 10px 10px 10px 10px;
     background-color: #F9F9F9;
 }
@@ -77,7 +64,7 @@ article img {
     float: left;
     position: -webkit-sticky;
     position: sticky;
-    top: 100px;
+    top: 50px;
 }
 
 .content-two img {
@@ -86,11 +73,6 @@ article img {
     max-width: 100%;
     height: auto;
     width: auto\9;
-}
-
-.content-two,
-.types-of-hikes {
-    font-size: 18px;
 }
 
 .hero-video {
@@ -102,6 +84,12 @@ article img {
     
 }
 
+.gmap {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 /* === Types of Hikes Sidebar Styles === */
 
 .types-of-hikes {
@@ -110,17 +98,23 @@ article img {
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
 }
 
-.types-of-hikes h2 {
+.types-of-hikes h2{
     margin: 0 0 0 0;
-    background-color: #5AA9E6;
+    background-color: #7FC8F8;
+}
+
+.types-of-hikes h3 {
+    margin: 0 0 0 0;
+    background-color: #D1CBCD;
 }
 
 .types-of-hikes p {
     background-color: #F9F9F9;
-    margin: 0 0 20px 0;
+    margin: 0;
+    padding: 0.25rem;
 }
 
 .types-of-hikes img {
@@ -132,7 +126,8 @@ article img {
 #left-column,
 #right-column {
     width: 50%;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
+    font-size: 18px;
 }
 
 .clear-both {
@@ -180,8 +175,8 @@ input[type=radio]::before {
     width: 0.65em;
     height: 0.65em;
     border-radius: 50%;
-    transform: sclae(0);
-    transition 120ms transform ease-in-out;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
     box-shadow: inset 1em 1em var(--form-control-color);
     background-color: CanvasText;
 
@@ -232,6 +227,35 @@ form p {
     text-align: left;
 }
 /* === End of Form Styles */
+
+/* Photo Carousel Styles */
+
+.hero-photo h1 {
+    background: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.top-center {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* End of Photo Carousel Styles */
 
 /* === Navigation Bar Styles === */
 
@@ -292,6 +316,7 @@ form p {
     width: 2.4rem;
     height: 2.4rem;
     padding: 0;
+    margin: 0;
 }
 
 #logo-link {
@@ -304,19 +329,6 @@ form p {
 }
 
 /* === End Navigation Bar Styles */
-
-
-/* Photo Carousel Styles */
-
-.carousel img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    object-position: bottom;
-}
-
-
-/* End of Photo Carousel Styles */
 
 /* Footer Styles */
 
