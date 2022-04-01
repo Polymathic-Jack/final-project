@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Quicksand', sans-serif; 
-font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Source Serif Pro', serif;*/
-
 * {
     box-sizing: border-box;
 }
@@ -41,7 +34,11 @@ p{
 }
 
 main {
-    background-image: linear-gradient(#F9F9F9, #5AA9E6)
+    background-image: linear-gradient(#F9F9F9, #5AA9E6);
+}
+
+.bg-none {
+    background-image: none;
 }
 
 .content-one {
@@ -57,8 +54,7 @@ main {
 }
 
 .content-two {
-    margin: 1em 1em 1em 1em;
-    padding: 10px 10px 10px 10px;
+    padding: 1px 20px 10px 0px;
     background-color: #F9F9F9;
     margin: 0 0 100px 0;
     float: left;
@@ -80,7 +76,7 @@ main {
     height: 500px;
     display: block;
     margin: auto;
-    padding: 10px 10px 10px 10px
+    padding: 10px 10px 10px 10px;
     
 }
 
@@ -92,8 +88,6 @@ main {
 
 .book-now,
 .button {
-    /* background-color: #5AA9E6;
-    color: #F9F9F9; */
     background-color: #FFE45E;
     color: #3a4443;
     border-radius: 9px;
@@ -106,8 +100,7 @@ main {
 }
 
 .book-now:hover {
-    
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30)
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.30);
 }
 
 .button:hover {
@@ -138,7 +131,7 @@ main {
 .types-of-hikes p {
     background-color: #F9F9F9;
     margin: 0;
-    padding: 0.25rem;
+    padding: 1em;
 }
 
 .types-of-hikes img {
@@ -157,7 +150,6 @@ main {
 #left-column,
 #right-column {
     width: 50%;
-    /* border: 2px solid #000; */
     font-size: 18px;
 }
 
@@ -173,6 +165,15 @@ main {
     margin: auto;
     max-width: 50%;
     padding: 20px 0 20px 0;
+}
+
+.radio-group {
+    margin-bottom: 1em;
+}
+
+.radio-group h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .form-control {
@@ -191,7 +192,7 @@ input[type="radio"] {
     background-color: #F9F9F9;
     margin: 0;
     font: inherit;
-    color: currenColor;
+    color: currentColor;
     width: 1.15em;
     height: 1.15em;
     border: 0.05em solid currentColor;
@@ -223,7 +224,7 @@ input[type=radio]:focus {
 }
 
 form-control:focus-within {
-    color: var(--form-control-color)
+    color: var(--form-control-color);
 }
 
 .form-control + .form-control {
@@ -237,8 +238,9 @@ form-control:focus-within {
 input[type=text],
 textarea {
     width: 100%;
-    border radius: 5px;
+    border-radius: 5px;
     margin: auto;
+    margin-bottom: 1em;
     resize: vertical;
     overflow: scroll;
     font-family: 'Poppins', sans-serif;
@@ -303,12 +305,10 @@ form p {
     height: 50px;
     list-style-type: none;
     margin-top: 0;
-    /* margin-left: -40px; */
     padding: 0 0 0 30px;
 }
 
 .navbar li {
-    /* border: 1px solid blue; */
     display: inline-block;
     height: auto;
     font-size: 18px;
@@ -369,11 +369,6 @@ form p {
     margin: auto;
     padding: none;
 }
-
-/* .book-now {
-    margin: auto;
-    width: 50%;
-} */
 
 /* === End Navigation Bar Styles */
 
